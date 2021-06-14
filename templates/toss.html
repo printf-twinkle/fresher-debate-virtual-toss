@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/css/toss.css">
+</head>
+<style>
+    body {
+            background-color: lightblue;
+        }
+</style>
+<body>
+    <div class='container'>
+        
+        <div id="coin" class=''>
+          <div id="heads" class="heads"></div>
+          <div id="tails" class="tails"></div>
+        </div>
+        <button class="glow-on-hover" id="flip">Flip this coin</button>
+        
+        <h1><span id="status"></span></h1>
+      </div>
+      {% if stu1 and stu2 %}
+      <center><h2>ALL THE BEST <strong><h1>{{stu1}}</h1> and <strong><h1>{{stu2}}</h1></h2></center>
+       <!-- <center><h2>{{stu1}}:For The Motion</h2></center>
+      <center><h2>{{stu2}}:Against The Motion</h2></center> -->
+      {% endif %}
+     
+</body>
+<script src="/static/js/toss.js"></script>
+</html>
